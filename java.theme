@@ -1,0 +1,15 @@
+string: 0;32
+comment: 0;32
+multi-line-comment: 0;32
+class: 0;33
+if: 0;94
+else-if: 0;94
+for: 0;94
+return: 0;94
+public: 0;33
+private: 0;33
+import: 0;94
+new: 0;31
+int: 0;96
+void: 0;96
+static: 0;96

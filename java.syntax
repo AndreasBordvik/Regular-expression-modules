@@ -1,0 +1,15 @@
+"(\".*\")": string
+"(\/{2}.*(?:$|\n))": comment
+"/\*[\s\S]*?\*/": multi-line-comment
+"(class\s).*(?=\{)": class
+"(if)(?:\W.*(?:\)\s|\{|\n))": if
+"(else if)(?:\W.*(?:\)\s|\{|\n))": else-if
+"(for)(?:\W.*(?:\)\s|\{|\n))": for
+"(return)(?:\s\w)": return
+"(public\s).*(?=\{|\;)": public
+"(private\s).*(?=\{|\;)": private
+"(import\s)|(^\s+import\s)(?:.*$\n)": import
+"\bnew\b": new
+"(?<=\s)int(?=\s)": int
+"(?<=\s)void(?=\s)": void
+"(?<=\s)static(?=\s)": static
